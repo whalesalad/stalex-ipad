@@ -1,0 +1,14 @@
+{
+  "name": "stalex-ipad",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.5.x",
+    "coffee-script": "1.3.3",
+    "ejs": "0.7.1",
+    "nodemailer": "0.3.20",
+    "mongojs": "latest"
+  },
+  "engines": {
+    "node": "0.6.x"
+  }
+}

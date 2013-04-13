@@ -1,0 +1,30 @@
+<table>
+    <thead>
+        <tr>
+            <td width="15%">Name</td>
+            <td>Email</td>
+            <td>Facebook</td>
+            <td>Age</td>
+            <td>Knows Arbesko?</td>
+            <td>Knows Stålex?</td>
+            <td>Carmine Red</td>
+            <td>Ghost White</td>
+            <td>Hot Pink</td>
+            <td>Pale Blue</td>
+        </tr>
+    </thead>
+    <% for(var i=0; i < submissions.length; i++) { %>
+    <tr>
+        <td><%= submissions[i].name %></td>
+        <td><%= submissions[i].email %></td>
+        <td><%= submissions[i].facebook %></td>
+        <td><%= submissions[i].age %></td>
+        <td><%= submissions[i].arbesko_question %></td>
+        <td><%= submissions[i].stalex_question %></td>
+        <td><%= submissions[i].ratings.carmine_red %></td>
+        <td><%= submissions[i].ratings.ghost_white %></td>
+        <td><%= submissions[i].ratings.hot_pink %></td>
+        <td><%= submissions[i].ratings.pale_blue %></td>
+    </tr>
+    <% } %>
+</table>
