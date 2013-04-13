@@ -1,5 +1,7 @@
 This was an application that I built while in the Cayman Islands with my family. I figured I should drink as much kool-aid as possible since it was meant to be built extremely quickly. So I decided to build it with Coffeescript and Node, using MongoDB as a data store and running it all on Heroku.
 
+**NOTE – This was built approximately one year ago and is unmaintained. A lot has happened since then. I code with 2 tab spaces now, and no longer drink tequila. Use this for fun and learning but don't come complainin' to me when it doesn't work.**
+
 ## Mission
 
 An iPad would be used on a conference floor in a large display booth to collect opinions on new products from folks walking around.
